@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full-website{
+    width: 960px;
+    margin: 30px auto;
+}
+.div1 ul{
+    text-align: center;
+}
+.div1 ul li{
+    display: inline-block;
+}
+.div1 ul li a {
+	text-decoration: none;
+	padding: 15px 30px;
+	display: inline-block;
+	background-color: #48dbfb;
+	color: #000;
+	font-size: 30px;
+}
+.slider-div {
+	text-align: center;
+}
+.slider{
+    background-color: #48dbfb;
+    margin: 5px;
+    height: 300px;
+    color: #fff;
+    padding-top: 5%;
+}
+.button a {
+	background-color: #fff;
+	display: inline-block;
+	text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ddd;
+}
+.button a:hover{
+    background: #000;
+    transition: .6s;
+}
+.slider-div .button a::before{
+     font-weight: 600;
+    padding-right: 10px;
+}
+.contener-div{
+    text-align: center;
+    margin: -5px 5px;
+}
+.contener{
+    background-color: #fff;
+    height: 300px;
+    
+    color: #000;
+}
+.basic {
+	height: 25px;
+	width: 88px;
+	color: #fff;
+	background-color: #000;
+	display: inline-block;
+	padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 71px;
+    transition: .5s;
+    cursor: pointer;
+}
+.step1{
+    transform: rotate(-40deg);
+  
+}
+.step1:hover{
+     transform:skew(365deg);
+}
+.step2{
+    margin-left: 100px;
+}
+.step2:hover{
+    transform: scale(1.5)
+}
+.step3{
+    transform: rotate(40deg);
+    margin-left: 100px;
+}
+.step3:hover{
+    transform: skew(365deg);
+}
+.bottom-div{
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    padding: 20px;
+    
+}
+/*biglekha*/
+.sub{
+    padding: 10px;
+    font-size: 20px;
+}
